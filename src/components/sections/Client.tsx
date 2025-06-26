@@ -8,7 +8,7 @@ const Client: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="section-title">Our Clients</h2>
-          <p className="text-secondary-500">
+          <p className="text-violet-500">
             Trusted by over 120+ clients worldwide
           </p>
           <p className="section-subtitle">
@@ -61,9 +61,9 @@ const Client: React.FC = () => {
 
         {/* Trust Badge */}
         <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-3 bg-secondary-50 rounded-full px-6 py-3 border border-secondary-200">
-            <div className="w-2 h-2 bg-secondary-500 rounded-full animate-pulse"></div>
-            <span className="text-secondary-700 font-medium">
+          <div className="inline-flex items-center gap-3 bg-violet-50 rounded-full px-6 py-3 border border-violet-200">
+            <div className="w-2 h-2 bg-violet-500 rounded-full animate-pulse"></div>
+            <span className="text-violet-700 font-medium">
               Satisfied Clients worldwide
             </span>
           </div>

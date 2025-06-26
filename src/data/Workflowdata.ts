@@ -6,14 +6,14 @@ export const workflow: WorkflowItem[] = [
     title: 'Idea & Analysis',
     description: 'We begin by understanding your business objectives, target audience, and requirements to develop a strategic plan.',
     icon: 'Lightbulb',
-    color: 'primary'
+    color: 'blue'
   },
   {
     id: 2,
     title: 'Designing',
     description: 'Our creative team designs visually appealing interfaces that align with your brand and provide exceptional user experience.',
     icon: 'Palette',
-    color: "secondary"
+    color: "violet"
   },
   {
     id: 3,

@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="John Doe"
                     required
                   />
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="john@example.com"
                     required
                   />
@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="+1 (123) 456-7890"
                   />
                 </div>
@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="How can we help you?"
                     required
                   />
@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   placeholder="Tell us about your project..."
                   required
                 ></textarea>
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
               
               <button
                 type="submit"
-                className="btn btn-primary w-full flex items-center justify-center"
+                className="btn btn-blue w-full flex items-center justify-center"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
@@ -193,8 +193,8 @@ const Contact: React.FC = () => {
             <div className="bg-gray-50 rounded-lg p-8 h-full">
               <div className="mb-8">
                 <div className="flex items-start mb-4">
-                  <div className="bg-primary-100 p-3 rounded-full mr-4">
-                    <MapPin className="w-6 h-6 text-primary-600" />
+                  <div className="bg-blue-100 p-3 rounded-full mr-4">
+                    <MapPin className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Our Location</h4>
@@ -205,8 +205,8 @@ const Contact: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start mb-4">
-                  <div className="bg-primary-100 p-3 rounded-full mr-4">
-                    <Phone className="w-6 h-6 text-primary-600" />
+                  <div className="bg-blue-100 p-3 rounded-full mr-4">
+                    <Phone className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone Number</h4>
@@ -217,8 +217,8 @@ const Contact: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start mb-4">
-                  <div className="bg-primary-100 p-3 rounded-full mr-4">
-                    <Mail className="w-6 h-6 text-primary-600" />
+                  <div className="bg-blue-100 p-3 rounded-full mr-4">
+                    <Mail className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email Address</h4>
@@ -229,8 +229,8 @@ const Contact: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-primary-100 p-3 rounded-full mr-4">
-                    <Clock className="w-6 h-6 text-primary-600" />
+                  <div className="bg-blue-100 p-3 rounded-full mr-4">
+                    <Clock className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Business Hours</h4>

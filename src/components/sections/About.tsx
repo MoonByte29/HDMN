@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Users, CheckCircle, Calendar, ArrowRight, Sparkles } from 'lucide-react';
 import { stats } from '../../data/Aboutdata';
+import about from "../../assets/About.jpg";
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -276,7 +277,7 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-2xl transform -rotate-3 group-hover:-rotate-6 transition-transform duration-500" />
               
               <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={about}
                 alt="Our Team Collaborating"
                 className="relative w-full h-96 object-cover rounded-2xl shadow-2xl group-hover:shadow-3xl transition-shadow duration-500"
               />

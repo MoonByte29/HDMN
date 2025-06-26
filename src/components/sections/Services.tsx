@@ -40,7 +40,7 @@ const Services: React.FC = () => {
             return (
               <div
                 key={service.id}
-                className="card group hover:border-l-4 hover:border-l-primary-500 transition-all duration-300"
+                className="card group hover:border-l-4 hover:border-l-blue-500 transition-all duration-300"
               >
                 <div
                   className={`inline-flex items-center justify-center w-16 h-16 rounded-lg bg-${service.color}-100 mb-6`}
@@ -49,7 +49,7 @@ const Services: React.FC = () => {
                     className={`w-8 h-8 text-${service.color}-500`}
                   />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
@@ -58,7 +58,7 @@ const Services: React.FC = () => {
           })}
           <Link
             to="/servicepage"
-            className="text-primary-600 font-medium flex items-center hover:text-primary-700 transition-colors"
+            className="text-blue-600 font-medium flex items-center hover:text-blue-700 transition-colors"
           >
             View More
             <svg

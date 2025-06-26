@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     <>
       <section
         id="home"
-        className="relative h-screen flex items-center bg-gradient-to-r from-primary-900 to-secondary-900 overflow-hidden"
+        className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-violet-900 overflow-hidden"
       >
         <motion.div
         className="absolute inset-0 z-0"
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 1 }}
       >
         <motion.div
-          className="absolute -top-24 -right-24 w-96 h-96 bg-primary-500 rounded-full opacity-20 blur-3xl"
+          className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500 rounded-full opacity-20 blur-3xl"
           animate={{
             scale: [1, 1.2, 1],
             rotate: [0, 90, 0],
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           }}
         />
         <motion.div
-          className="absolute top-1/2 left-1/4 w-64 h-64 bg-secondary-500 rounded-full opacity-10 blur-3xl"
+          className="absolute top-1/2 left-1/4 w-64 h-64 bg-violet-500 rounded-full opacity-10 blur-3xl"
           animate={{
             scale: [1, 1.3, 1],
             rotate: [0, -90, 0],
@@ -73,12 +73,12 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <span className="text-sm md:text-xl px-5 mb-10 text-white bg-secondary-500 rounded-lg">
+              <span className="text-sm md:text-xl px-5 mb-10 text-white bg-violet-500 rounded-lg">
                 HD Media Newtork
               </span><br/>
               Where{" "}
               <motion.span
-                className="text-primary-400"
+                className="text-blue-400"
                 animate={{
                   color: ["#36a3f7", "#0d87ea", "#36a3f7"],
                 }}
@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
               </motion.span>{" "}
               Meets{" "}
               <motion.span
-                className="text-secondary-400"
+                className="text-violet-400"
                 animate={{
                   color: ["#42c2cd", "#29a3af", "#42c2cd"],
                 }}
@@ -125,7 +125,7 @@ const Hero: React.FC = () => {
             >
               <motion.a
                 href="#contact"
-                className="btn btn-primary"
+                className="btn btn-blue"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -164,7 +164,7 @@ const Hero: React.FC = () => {
               </motion.div>
 
               <motion.div
-                className="absolute -top-4 -left-4 w-24 h-24 bg-primary-500/20 rounded-lg -z-10 hidden md:block"
+                className="absolute -top-4 -left-4 w-24 h-24 bg-blue-500/20 rounded-lg -z-10 hidden md:block"
                 animate={{
                   rotate: [0, 360],
                   scale: [1, 1.1, 1],
@@ -176,7 +176,7 @@ const Hero: React.FC = () => {
                 }}
               />
               <motion.div
-                className="absolute -bottom-4 -right-4 w-32 h-32 bg-secondary-500/20 rounded-lg -z-10 hidden md:block"
+                className="absolute -bottom-4 -right-4 w-32 h-32 bg-violet-500/20 rounded-lg -z-10 hidden md:block"
                 animate={{
                   rotate: [360, 0],
                   scale: [1, 1.2, 1],

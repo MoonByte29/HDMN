@@ -7,13 +7,13 @@ const Features: React.FC = () => {
       icon: <Palette className="w-full h-full" />,
       title: "Clean and Modern UI/UX Design",
       description: "Creating intuitive and visually appealing interfaces that enhance user experience and drive engagement.",
-      color: "primary"
+      color: "blue"
     },
     {
       icon: <Code className="w-full h-full" />,
       title: "Latest & Scalable Technology Stack",
       description: "Leveraging cutting-edge technologies and frameworks to build robust, future-proof solutions.",
-      color: "secondary"
+      color: "violet"
     },
     {
       icon: <Users className="w-full h-full" />,
@@ -33,10 +33,10 @@ const Features: React.FC = () => {
     <section id='features' className="py-12 sm:py-16 lg:py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-900 mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-900 mb-3 sm:mb-4">
             Why Choose Our Services
           </h2>
-          <p className="text-base sm:text-lg lg:text-xl text-primary-600 max-w-2xl lg:max-w-3xl mx-auto px-4 sm:px-0">
+          <p className="text-base sm:text-lg lg:text-xl text-blue-600 max-w-2xl lg:max-w-3xl mx-auto px-4 sm:px-0">
             We deliver exceptional digital solutions with a focus on innovation, quality, and client satisfaction.
           </p>
         </div>

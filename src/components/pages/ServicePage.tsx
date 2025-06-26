@@ -35,7 +35,7 @@ const ServicesPage: React.FC = () => {
   return (
     <>
       <motion.section
-        className="bg-gradient-to-r from-primary-900 to-secondary-900 py-24 text-white"
+        className="bg-gradient-to-r from-blue-900 to-violet-900 py-24 text-white"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -52,7 +52,7 @@ const ServicesPage: React.FC = () => {
             Our Services
           </motion.h1>
           <motion.p
-            className="text-xl md:text-2xl text-secondary-400 max-w-3xl mx-auto"
+            className="text-xl md:text-2xl text-violet-400 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
@@ -72,7 +72,7 @@ const ServicesPage: React.FC = () => {
               return (
                 <div
                   key={service.id}
-                  className="card group hover:border-l-4 hover:border-l-primary-500 transition-all duration-300"
+                  className="card group hover:border-l-4 hover:border-l-blue-500 transition-all duration-300"
                 >
                   <div
                     className={`inline-flex items-center justify-center w-16 h-16 rounded-lg bg-${service.color}-100 mb-6`}
@@ -81,7 +81,7 @@ const ServicesPage: React.FC = () => {
                       className={`w-8 h-8 text-${service.color}-500`}
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-6">{service.description}</p>

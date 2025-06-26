@@ -39,7 +39,7 @@ const Testimonials: React.FC = () => {
         <div className="relative max-w-4xl mx-auto">
           {/* Navigation Buttons */}
           <button
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-12 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-12 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
             onClick={() => {
               prevSlide();
               setAutoplay(false);
@@ -49,7 +49,7 @@ const Testimonials: React.FC = () => {
           </button>
           
           <button
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-12 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-12 z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
             onClick={() => {
               nextSlide();
               setAutoplay(false);
@@ -75,7 +75,7 @@ const Testimonials: React.FC = () => {
                         <img
                           src={testimonial.gender}
                           alt={testimonial.name}
-                          className="w-20 h-20 rounded-full object-cover border-4 border-primary-100"
+                          className="w-20 h-20 rounded-full object-cover border-4 border-blue-100"
                         />
                       </div>
                       
@@ -111,7 +111,7 @@ const Testimonials: React.FC = () => {
                 key={index}
                 className={`w-3 h-3 rounded-full transition-all ${
                   currentSlide === index
-                    ? 'bg-primary-600 w-6'
+                    ? 'bg-blue-600 w-6'
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
                 onClick={() => {

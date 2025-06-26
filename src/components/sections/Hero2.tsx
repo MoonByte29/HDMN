@@ -90,7 +90,7 @@ export default function Hero2() {
                 </motion.span>{" "}
                 Meets <br />
                 <motion.span
-                  className="text-primary-500"
+                  className="text-blue-500"
                   transition={{
                     duration: 3,
                     repeat: Infinity,

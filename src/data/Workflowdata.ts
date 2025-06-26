@@ -27,6 +27,6 @@ export const workflow: WorkflowItem[] = [
     title: 'Testing & Launching',
     description: 'Rigorous testing ensures your product is bug-free and performs optimally before it reaches your audience.',
     icon: 'ShieldEllipsis',
-    color: 'accent'
+    color: 'orange'
   },
 ];

@@ -1,13 +1,12 @@
-import { ServiceItem } from "../types/index.ts";
+import { Service } from "../types/index.ts";
 
-export const services: ServiceItem[] = [
+export const services: Service[] = [
   {
     id: 1,
     title: "Website Development",
     description:
       "Custom website development using the latest technologies to create responsive, user-friendly sites that drive conversions.",
     icon: "Globe",
-    color: "primary",
   },
   {
     id: 2,
@@ -15,7 +14,6 @@ export const services: ServiceItem[] = [
     description:
       "Strategic social media campaigns to boost brand awareness, engagement, and drive qualified traffic to your business.",
     icon: "Share2",
-    color: "secondary",
   },
   {
     id: 3,
@@ -23,7 +21,6 @@ export const services: ServiceItem[] = [
     description:
       "Data-driven SEO strategies to improve your search engine rankings, increase organic traffic, and maximize ROI.",
     icon: "Search",
-    color: "accent",
   },
   {
     id: 4,
@@ -31,7 +28,6 @@ export const services: ServiceItem[] = [
     description:
       "Eye-catching visual designs that communicate your brand message effectively and create lasting impressions.",
     icon: "PenTool",
-    color: "primary",
   },
   {
     id: 5,
@@ -39,7 +35,6 @@ export const services: ServiceItem[] = [
     description:
       "Targeted pay-per-click campaigns that deliver immediate results and help you reach your ideal customers.",
     icon: "Target",
-    color: "secondary",
   },
   {
     id: 6,
@@ -47,7 +42,6 @@ export const services: ServiceItem[] = [
     description:
       "Custom mobile application development for iOS and Android platforms to extend your digital presence.",
     icon: "Smartphone",
-    color: "accent",
   },
   {
     id: 7,
@@ -55,7 +49,6 @@ export const services: ServiceItem[] = [
     description:
       "Enhance customer experience with AI-powered WhatsApp chatbots that offer instant, 24/7 support and lead generation.",
     icon: "MessageCircle",
-    color: "primary",
   },
   {
     id: 8,
@@ -63,7 +56,6 @@ export const services: ServiceItem[] = [
     description:
       "Turn raw data into valuable insights with our advanced analytics solutions to drive smarter business decisions.",
     icon: "BarChart2",
-    color: "secondary",
   },
   {
     id: 9,
@@ -71,7 +63,6 @@ export const services: ServiceItem[] = [
     description:
       "Boost your brand’s online presence through customized digital campaigns, content strategies, and performance tracking.",
     icon: "TrendingUp",
-    color: "accent",
   },
   {
     id: 10,
@@ -79,7 +70,6 @@ export const services: ServiceItem[] = [
     description:
       "Leverage machine learning to automate processes, predict trends, and unlock new business opportunities.",
     icon: "Cpu",
-    color: "primary",
   },
   {
     id: 11,
@@ -87,7 +77,6 @@ export const services: ServiceItem[] = [
     description:
       "Integrate secure and seamless payment systems into your website or app for smooth and trusted transactions.",
     icon: "CreditCard",
-    color: "secondary",
   },
   {
     id: 12,
@@ -95,6 +84,5 @@ export const services: ServiceItem[] = [
     description:
       "Connect third-party services efficiently with robust API integrations tailored to your business infrastructure.",
     icon: "Code",
-    color: "accent",
   },
 ];

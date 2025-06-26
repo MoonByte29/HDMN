@@ -60,3 +60,19 @@ export interface CategoryFilter {
   id: string;
   name: string;
 }
+
+export interface Service {
+  id: number;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface StatItem {
+  id: number;
+  value: number;
+  label: string;
+  suffix: string;
+  icon: string;
+  color: string;
+}

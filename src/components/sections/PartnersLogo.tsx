@@ -7,7 +7,7 @@ const PartnerLogos: React.FC = () => {
   const duplicatedPartners = [...partners, ...partners];
 
   return (
-    <div className="w-full bg-blue-50 py-12 overflow-hidden">
+    <div className="w-full bg-blue-50 py-5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-blue-900 mb-2">
@@ -49,7 +49,7 @@ const PartnerLogos: React.FC = () => {
           <div className="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-blue-50 to-transparent z-10"></div>
 
           {/* Scrolling container */}
-          <div className="flex animate-scroll hover:[animation-play-state:paused] px-20 py-5">
+          <div className="flex animate-scroll hover:[animation-play-state:paused] px-20 py-2">
             {duplicatedPartners.map((partner, index) => (
               <div
                 key={`${partner.id}-${index}`}

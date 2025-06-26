@@ -1,13 +1,13 @@
-import React, { useEffect , useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Loader from "./components/ui/Loader";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
-import Hero from "./components/sections/Hero";
+// import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
-import Services from "./components/sections/Services";
+// import Services from "./components/sections/Services";
 import Workflow from "./components/sections/Workflow";
 import Portfolio from "./components/sections/Portfolio";
 import Testimonials from "./components/sections/Testimonials";
@@ -19,13 +19,15 @@ import Features from "./components/sections/Features";
 import Client from "./components/sections/Client";
 import AboutPage from "./components/pages/AboutPage";
 import Hero2 from "./components/sections/Hero2";
+import OurServices from "./components/sections/OurServices";
+import OurFeatures from "./components/sections/OurFeatures";
 
 const App: React.FC = () => {
   useEffect(() => {
     document.title = "HD Media Network | Web Development & Digital Marketing";
   }, []);
 
-    const [appLoading, setAppLoading] = useState(true);
+  const [appLoading, setAppLoading] = useState(true);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -83,13 +85,14 @@ const App: React.FC = () => {
               <>
                 <main>
                   <Hero2 />
+                  {/* <PartnerLogos /> */}
                   <About />
-                  <PartnerLogos />
-                  <Services />
+                  <OurServices />
                   <Workflow />
-                  <Features/>
+                  <Features />
+                  <OurFeatures />
                   <Portfolio />
-                  <Client/>
+                  <Client />
                   <Testimonials />
                   <CTA />
                   <Contact />
